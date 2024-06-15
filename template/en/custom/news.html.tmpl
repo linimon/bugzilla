@@ -1,6 +1,15 @@
 [%# News file for the FreeBSD bugzilla instance #%]
 [% news = [
 {
+  date => '2024-06-15',
+  text => '<ul>
+  <li>Versions 14.1-RELEASE and 14.1-STABLE of product Base System were
+    created.</li>
+  <li>As an experiment, the keyword "vendor" has been created.  Set this
+    to flag a PR as filed from an upstream or downstream of FreeBSD.</li>
+  </ul>'
+},
+{
   date => '2024-01-20',
   text => '<ul>
   <li>As an experiment, the flag "needs-errata" has been created.  Set this
@@ -10,13 +19,22 @@
   </ul>'
 },
 {
+  date => '2024-01-04',
+  text => '<ul>
+  <li>As support for it has ended, Base System version 12.4 was disabled
+    for new bugs.</li>
+  <li>The weekly reminder script was updated to deselect mfc-stable12.</li>
+  <li>The Dashboard MFC query was similarly updated.</li>
+  </ul>'
+},
+{
   date => '2023-12-17',
   text => '<ul>
   <li>The weekly reminder script was belatedly updated to:
     <ul>
       <li>deselect mfc-stable8 through 11.</li>
       <li>select mfc-stable12 through 14.</li>
-    </ul> 
+    </ul>
   <li>The Dashboard MFC query was belatedly fixed as above.</li>
   <li>Note that mfc-stable12 will be removed 20240101.</li>
   </ul>'
@@ -47,12 +65,12 @@
   date => '2021-01-24',
   text => '<ul>
   <li>To reflect the prelease state of FreeBSD 13.0, the following were
-    done: 
+    done:
     <ul>
       <li>Version 13.0-STABLE of product Base System was created.</li>
       <li>The flag type mfc-stable13 was created.</li>
     </ul>
-  <li>As support for them has ended, Base System versions 12.0-RELEASE 
+  <li>As support for them has ended, Base System versions 12.0-RELEASE
     and 12.0-STABLE were disabled for new bugs.</li>
   <li>Hardware value sparc64 has been disabled for new bugs.</li>
   </ul>'
