@@ -137,7 +137,7 @@ sub new_ports_bugs {
         "email1" => "ports-bugs\@FreeBSD.org",
         "emailassigned_to1" => "1",
         "emailtype1" => "exact",
-        "product" => "Ports & Packages"
+        "product" => "Ports & Packages",
         # "f1" => "longdescs.count",
         # "o1" => "equals",
         # "v1" => "1"
