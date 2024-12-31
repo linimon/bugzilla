@@ -248,7 +248,7 @@ sub _get_maintainer {
         # to access all necessary tools
         my $oldenv = $ENV{PATH};
         $ENV{PATH} .= "/usr/bin:/usr/local/bin:/usr/local/sbin";
-        my $maintainer = `PORTSDIR=@{[PORTSDIR]} make -C $portdir -V MAINTAINER`;
+        my $maintainer = `I_DONT_CARE_IF_MY_BUILDS_TARGET_THE_WRONG_RELEASE=yes PORTSDIR=@{[PORTSDIR]} make -C $portdir -V MAINTAINER`;
         $ENV{PATH} = $oldenv;
         chomp($maintainer);
         return $maintainer;
