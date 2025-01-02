@@ -18,5 +18,5 @@ In short:
 
 * cd /usr/ports/devel/bugzilla50 && make install clean
 * Download the latest stable freebsd/bugzilla release from https://github.com/freebsd/bugzilla
-* tar -C /usr/local/www/bugzilla -xjvf freebsd-bugzilla-ext.tar.bz2
+* tar -C /usr/local/www/bugzilla -xjvf <filename>.tar.gz
 * cd /usr/local/www/bugzilla && checksetup.pl
