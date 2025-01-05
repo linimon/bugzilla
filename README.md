@@ -7,9 +7,9 @@ in a 1:1 fashion.
 # How do I use it?
 
 freebsd/bugzilla will refer to a certain bugzilla package from the FreeBSD
-ports, usually the latest stable one (devel/bugzilla50 as of now).
+ports, usually the latest stable one (devel/bugzilla52 as of now).
 
-Thus, if you install devel/bugzilla50, you can simply copy
+Thus, if you install devel/bugzilla52, you can simply copy
 freebsd/bugzilla over ${PREFIX}/www/bugzilla to have a Bugzilla implementation
 that resembles what the FreeBSD project uses at
 https://bugs.freebsd.org/bugzilla.
